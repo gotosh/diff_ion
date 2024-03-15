@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/a.out.dir/main.cpp.o -o a.out  -Wl,-rpath,/home/goto/project/cpp_project/diffusion_eq/build/src libdiff_eq.so 

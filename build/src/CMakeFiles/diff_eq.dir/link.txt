@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libdiff_eq.so -o libdiff_eq.so CMakeFiles/diff_eq.dir/diff_eq.cpp.o 
