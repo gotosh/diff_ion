@@ -1,6 +1,0 @@
-/home/goto/project/cpp_project/diffusion_eq/build/CMakeFiles/edit_cache.dir
-/home/goto/project/cpp_project/diffusion_eq/build/CMakeFiles/rebuild_cache.dir
-/home/goto/project/cpp_project/diffusion_eq/build/src/CMakeFiles/diff_eq.dir
-/home/goto/project/cpp_project/diffusion_eq/build/src/CMakeFiles/a.out.dir
-/home/goto/project/cpp_project/diffusion_eq/build/src/CMakeFiles/edit_cache.dir
-/home/goto/project/cpp_project/diffusion_eq/build/src/CMakeFiles/rebuild_cache.dir
