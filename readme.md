@@ -13,5 +13,4 @@ $$ \dfrac{1}{(\Delta x)^2} \left(-D_k^{j + 1}  n_k^{j + 2} + (D_k^{j + 1} + D_k^
 V^{j + 2} - 2 V^{j + 1} + V^{j} = - \dfrac{e}{\varepsilon_0} (\Delta x)^2 \displaystyle \sum_k Z_k n_k
 $$
 
-
-## 
+## title 

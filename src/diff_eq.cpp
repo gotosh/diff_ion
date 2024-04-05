@@ -1,6 +1,10 @@
 
 #include "diff_eq.hpp"
 
+void gauss_eq(std::vector<double> &n, int size_n){
+    
+}
+
 diff_eq::diff_eq(
     std::vector<double> &x, 
     std::vector<double> &n_p,
@@ -13,6 +17,9 @@ diff_eq::diff_eq(
     std::vector<double> &T
 ){
     /* initialization */
+    gauss_eq(n_p);
+    gauss_eq(n_e);
+    gauss_eq(n_m);
 
 };
 
