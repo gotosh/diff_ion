@@ -7,6 +7,11 @@
 #include <vector>
 #include <string>
 
+#ifdef DEBUG_BUILD
+#include <fstram>
+#endif
+
+
 class diff_eq
 {
 private:
@@ -22,7 +27,9 @@ public:
         std::vector<double> &D_p,
         std::vector<double> &D_e,
         std::vector<double> &D_m,  
-        std::vector<double> &T
+        std::vector<double> &T,
+        double L,
+        double dx
     );
     // ~diff_eq();
 

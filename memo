@@ -1,1 +1,20 @@
 C++ のメンバ関数で，引数に特定の文字を受け取って，受け取った文字列によって振る舞いを変更するようなものを作成してください
+.
+├── CMakeLists.txt
+|
+├── clipboard
+├── debug
+│   ├── CMakeLists.txt
+│   ├── file_debug.cpp
+│   └── file_debug.hpp
+├── diffusion_eq_memo
+├── makebuild.sh
+├── memo
+├── readme.md
+├── src
+│   ├── CMakeLists.txt
+│   ├── diff_eq.cpp
+│   ├── diff_eq.hpp
+│   └── main.cpp
+└── test
+    └── gauss_distribution.py
