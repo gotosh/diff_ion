@@ -4,13 +4,14 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <string>
 
 class file_debug
 {
 private:
     /* data */
 public:
-    file_debug(const char *fileName, const double value);
+    file_debug();
     void write(const char *fileName, const double value);
     void write_vector(const char *fileName, std::vector<double> vec);
 };

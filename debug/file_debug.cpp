@@ -1,15 +1,17 @@
 #include "file_debug.hpp"
 
-file_debug::file_debug(const char *fileName, const double value){
+file_debug::file_debug(){
 
-    std::ofstream ofs(fileName);
-    if (!ofs)
-    {
-        std::cout << "file cannot be opened " << std::endl;
-        std::cin.get();
-    }
+    // std::ofstream ofs(fileName);
+    // if (!ofs)
+    // {
+    //     std::cout << "file cannot be opened " << std::endl;
+    //     std::cin.get();
+    // }
 
-    ofs << value << std::endl;
+    // ofs << value << std::endl;
+
+    std::cout << "file_debug init" << std::endl;
 }
 
 void file_debug::write(const char *fileName, const double value){
@@ -37,6 +39,6 @@ void file_debug::write_vector(const char *fileName, std::vector<double> vec){
 
     for (int i = 0; i < vec.size(); i++)
     {
-        ofs << i << " " << vec.at(i);
+        ofs << i << " " << vec.at(i) << std::endl;
     }   
 }
